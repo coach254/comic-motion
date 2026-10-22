@@ -14,12 +14,17 @@ __pycache__/
 *.sqlite
 *.sqlite3
 
-# Flutter / Dart generated files
+# Flutter / Dart
 **/.dart_tool/
 **/build/
 **/.flutter-plugins
 **/.flutter-plugins-dependencies
 **/.widget_preview/
+**/ios/Flutter/ephemeral/
+**/macos/Flutter/ephemeral/
+**/linux/flutter/ephemeral/
+**/windows/flutter/ephemeral/
+**/.gradle/
 
 # IDE and OS
 .vscode/
@@ -33,19 +38,8 @@ Thumbs.db
 
 # Storage and generated media
 comic_motion_backend/storage/
-comic_motion_backend/test_panel_video.mp4
-comic_motion_backend/test_voice.mp3
 
-# Android / Gradle
-**/.gradle/
-**/local.properties
+# Flutter specific local files
 **/*.iml
-
-# iOS / macOS generated files
-**/ios/Flutter/ephemeral/
-**/ios/Flutter/Generated.xcconfig
-**/ios/Flutter/flutter_export_environment.sh
-**/ios/Runner/GeneratedPluginRegistrant.*
-**/macos/Flutter/ephemeral/
-**/linux/flutter/ephemeral/
-**/windows/flutter/ephemeral/
+**/local.properties
+**/ios/Pods/
