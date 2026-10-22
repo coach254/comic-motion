@@ -1,45 +1,32 @@
-﻿# Secrets
-.env
-.env.*
-!.env.example
-
-# Python
+﻿# Python
 venv/
-.venv/
 __pycache__/
-*.py[cod]
+*.pyc
 
-# Databases
-*.db
-*.sqlite
-*.sqlite3
+# Flutter / Dart generated files
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
 
-# Flutter / Dart
-**/.dart_tool/
-**/build/
-**/.flutter-plugins
-**/.flutter-plugins-dependencies
-**/.widget_preview/
+# Flutter platform files
 **/ios/Flutter/ephemeral/
 **/macos/Flutter/ephemeral/
 **/linux/flutter/ephemeral/
 **/windows/flutter/ephemeral/
-**/.gradle/
+**/android/.gradle/
+**/android/local.properties
+**/android/app/google-services.json
 
-# IDE and OS
+# Secrets
+.env
+*.env
+*.env.*
+
+# IDE / OS
 .vscode/
 .idea/
+*.iml
 .DS_Store
 Thumbs.db
-
-# Firebase config
-**/google-services.json
-**/firebase_options.dart
-
-# Storage and generated media
 comic_motion_backend/storage/
-
-# Flutter specific local files
-**/*.iml
-**/local.properties
-**/ios/Pods/
